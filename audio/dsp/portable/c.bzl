@@ -5,7 +5,6 @@ like their cc_* counterparts, but compile with C89 standard compatibility.
 
 WARNING_OPTS = [
     # Suppress "unused function" warnings on `static` functions in .h files.
-    "-Wno-unused-function",
 ]
 
 # Build with C89 standard compatibility.
